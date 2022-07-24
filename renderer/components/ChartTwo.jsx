@@ -1,9 +1,9 @@
 import { CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from "recharts"
 
-export default function Chart({Data,data}) {
+export default function ChartTwo({Data,data}) {
   // if (data?.length ==0) {
   if (Data?._elements?.length ==0) {
-    return <h1>No Data in Channel-1</h1>
+    return <h1>No Data in Channel-2</h1>
   }
 
   return (
